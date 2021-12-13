@@ -1,0 +1,5 @@
+Resoruces:
+https://www.w3schools.com/howto/howto_css_rounded_images.asp
+https://www.w3schools.com/html/html_tables.asp
+https://www.w3schools.com/howto/howto_html_download_link.asp
+https://www.w3schools.com/howto/howto_css_image_center.asp

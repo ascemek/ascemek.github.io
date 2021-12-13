@@ -1,0 +1,117 @@
+/*TakeHomeExam2, HOME PAGE*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{ /*flexbox setup for the header -Riley*/
+	background-color: #23488D;
+	display: flex;
+	align-items: center;
+	padding: .5%;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+header a, header p{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
+	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" 
+	lets you effect every "EXElement" contained by EXParent. I used this to clean up the HTML -Riley*/
+	font-size:  20px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+#welcomeText{
+	margin-top: 50px;
+	margin-left: 80px;
+}
+
+div.AboutText{
+	margin-top: 40px;
+	padding-left: 80px;
+}
+
+div.ImageASC{
+	padding-top: 40px;
+	padding-left: 80px;
+}
+
+#suitPhoto{
+	border-radius: 50%;
+}
+
+div.Buttons{
+	text-decoration: none;
+	color: black;
+}
+
+#line2{
+	width: 1300px;
+}
+
+#line3{
+	width: 1300px;
+}
+
+#list1{
+	padding-left: 20px;
+}
+
+div.Projects{
+	margin-left: 80px;
+}
+
+div.ClassList{
+	margin-left: 80px;
+}
+
+/* PROJECT-TABLES*/
+
+div.tableP3{
+	font-weight:normal;
+}
+
+div.tableP2{
+	text-align: center;
+	align-items: center;
+	align-content: center;
+
+}
+
+div.SubmitButton{
+margin-left: 150px;
+}
+
+
+div.tableP4{
+	font-weight:normal;
+}
+
+table, th, td {
+	border:1px solid black;
+}
+
+body{
+	font-family: Tahoma, sans-serif;
+}
+
+#metzImage1, #cookiePhoto{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.forms{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+
+footer{
+	background-color: #23488D;
+	color: white;
+	text-align: center;
+}
